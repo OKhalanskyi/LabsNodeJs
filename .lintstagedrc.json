@@ -1,6 +1,3 @@
 {
-  "*.{js,ts,yml}": [
-    "npm run eslint",
-    "npm run prettier"
-  ]
+  "*.{js,ts,yml}": ["eslint --ext .js,.ts src/", "prettier . --check"]
 }
