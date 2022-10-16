@@ -1,0 +1,6 @@
+{
+  "*.{js,ts,yml}": [
+    "npm run eslint",
+    "npm run prettier"
+  ]
+}
