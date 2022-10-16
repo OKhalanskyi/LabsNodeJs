@@ -1,3 +1,0 @@
-{
-  "*.{js,ts,yml}": ["eslint --ext .js,.ts src/", "prettier . --check"]
-}
