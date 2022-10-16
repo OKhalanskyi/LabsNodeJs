@@ -39,7 +39,7 @@
     "dotenv": "^16.0.3"
   },
   "simple-git-hooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "npx simple-git-hooks && npx lint-staged"
   },
   "lint-staged": {
     "*.{js,ts,yml}": [
