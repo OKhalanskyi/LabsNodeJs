@@ -6,8 +6,7 @@ const { PORT } = process.env
 const server = http.createServer(
     (req: http.IncomingMessage, res: http.ServerResponse) => {
         res.writeHead(200, { 'Content-Type': 'text/plain' })
-        res.end('started')
-        console.log(`started on ${PORT} , cache cleaned`)
+        res.end('started zxc')
     }
 )
 server.listen(PORT || 7777)
